@@ -1,0 +1,14 @@
+{
+  "name": "repro",
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "3.691.0",
+    "@aws-sdk/lib-dynamodb": "3.691.0"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "@types/node": "20.17.6"
+  }
+}
